@@ -26,5 +26,6 @@ CRIANDO NOVA BRANCH:
 MESCLANDO BRANCHS:
  - Troque sua branch atual para a anterior usando $ git checkout <nome-da-branch>
  - Mescle as branchs usando $ git merge <nome-da-branch-posterior> (a branch que você deseja mesclar)
- - Neste momento a branch anterior (main) possuem atualizações da main e da posterior. Você pode apagar a branch posterior agora
+ - Neste momento a branch anterior (main) possuem atualizações da main e da posterior. Você pode apagar a branch posterior.
+ - Primeiro faça um push na branch atual (main). Depois verifique se os arquivos estão iguais em ambas as branches. Agora sim, você pode apagar a branch posterior.
  - Para apagar a branch posterior use $ git branch -d <nome-da-branch-posterior>
