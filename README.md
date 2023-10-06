@@ -1,0 +1,1 @@
+Repositório feito para ensinar um pouco sobre HTML, CSS, JS e Git/Github para meus amigos.
