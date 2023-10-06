@@ -1,0 +1,19 @@
+INICIANDO REPOSITÓRIO LOCAL:
+ - Crie uma pasta para armazenar seus projetos.
+ - Abra esta pasta. Em seguida abra o git bash.
+ - $ git init -b main
+ - adicione arquivos dentro desta pasta. Você pode usar o comando $ touch "nome do arquivo.extensão" no bash
+ - acesse o arquivo pela pasta e edite-o
+ - No bash prepare para commitar.
+ - $ git add arquivo.extensão. Faça isso para cada arquivo criado.
+ - Após usar o git add faça o commit do mesmo arquivo.
+ - $ git commit -m "msg descritiva da alteração feita"
+ 
+INICIANDO REPOSITÓRIO NUVEM:
+ - Faça um repositório com o mesmo nome do repositório local
+ - Copie a URL deste repositório
+ - Volte para o git bash. 
+ - Use $ git remote add origin <URL>
+ - $ git remote -v
+ - $ git push origin main
+ 
