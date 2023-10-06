@@ -17,3 +17,14 @@ INICIANDO REPOSITÓRIO NUVEM:
  - $ git remote -v
  - $ git push origin main
  
+CRIANDO NOVA BRANCH:
+ - Primeiro verifique se a branch atual é a main, com o comando $ git branch. Ele retornará o nome de todas as branchs e marcará com um asterisco a branch que você se encontra.
+ - Após a verificação da branch atual, use $ git checkout -b <nova-branch>, para criar uma branch nova e mudar para ela.
+ - Crie um arquivo novo dentro dela com o nome diferente dos arquivos da branch "main". Edite este aquivo.
+ - Dê um push para salvar as alterações em um commit.
+
+MESCLANDO BRANCHS:
+ - Troque sua branch atual para a anterior usando $ git checkout <nome-da-branch>
+ - Mescle as branchs usando $ git merge <nome-da-branch-posterior> (a branch que você deseja mesclar)
+ - Neste momento a branch anterior (main) possuem atualizações da main e da posterior. Você pode apagar a branch posterior agora
+ - Para apagar a branch posterior use $ git branch -d <nome-da-branch-posterior>

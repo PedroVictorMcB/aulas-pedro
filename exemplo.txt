@@ -1,0 +1,1 @@
+Este é um exemplo de arquivo criado em uma branch nova. Você mesclará ele com a branch "main" ao final do exercício.
